@@ -38,6 +38,31 @@ Dataset: [Heart Disease Dataset (Kaggle)](https://www.kaggle.com/datasets/johnsm
 
 ---
 
+---
+
+## 🔍 Insights
+- Shallower trees (max depth = 3) reduce overfitting but lose accuracy.  
+- Random Forest matches the performance of the best Decision Tree but is more stable and less prone to overfitting due to averaging multiple trees.  
+- Cross-validation scores confirm Random Forest’s better generalization compared to a single deep Decision Tree.  
+
+---
+
+## 📈 Feature Importance
+Random Forest feature importance revealed the top predictors for heart disease:
+
+1. **cp** — Chest pain type  
+2. **thal** — Thalassemia  
+3. **ca** — Number of major vessels  
+4. **oldpeak** — ST depression induced by exercise  
+5. **thalach** — Maximum heart rate achieved  
+
+---
+
+## 📌 Final Output
+The final model is a **Random Forest Classifier** with **98.54% accuracy**, capable of predicting whether a patient has heart disease based on medical attributes.
+
+---
+
 ## 🌳 Decision Tree Visualization (Graphviz)
 
 A decision tree can be exported and visualized to show how splits are made at each node.  
